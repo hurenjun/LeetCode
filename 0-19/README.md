@@ -18,3 +18,13 @@ Date: 2015/9/20
 问题：输入两个非负整数，用链表存，个位在前。求这两个整数的和，用相同格式存。
 
 思路：单纯的链表操作。
+
+
+2015/9/21 2LongestSubstring
+
+问题：Given a string, find the length of the longest substring without repeating characters.
+
+思路：对于字符串s，设置两个index i and j，表示s[i]到s[j]没有出现出现重复的字符。初始化i=0以及j=-1。[P] 
+考虑s[j+1]，如果s[j+1]没有在s[i]-s[j]中出现，则j右移+1，表示当前s[i]与s[j]仍满足要求；否则保持j不变，i右移+1。
+如果j没有到最后，则回到[P]处。否则结束。
+在这个过程中，随时用当前长度更新最优的长度，以及别忘了最后的更新。
