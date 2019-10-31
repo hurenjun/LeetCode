@@ -1,5 +1,6 @@
-# Main ideas of solutions by Renjun Hu
-**hurenjun[at]buaa.edu.cn[end]**
+# Main ideas of solutions
+
+**Contact info.: hurenjun[at]buaa.edu.cn[end]**
 
 4. Median of Two Sorted Arrays
 S1: binary-search the # of [numbers <= median] in the shorter array; 
