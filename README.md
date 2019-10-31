@@ -4,13 +4,10 @@
 
 ---
 
-4. Median of Two Sorted Arrays
-
-(a) binary-search the # of [numbers <= median] in the shorter array; 
-
-(b) the # of [numbers <= median] in the other array can be determined in O(1) time;
-
-(c) check whether the current split is valid.
+4. Median of Two Sorted Arrays  
+(a) binary-search the # of [numbers <= median] in the shorter array;  
+(b) the # of [numbers <= median] in the other array can be determined in O(1) time;  
+(c) check whether the current split is valid.  
 
 
 5. Longest Palindromic Substring
