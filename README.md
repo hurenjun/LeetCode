@@ -41,9 +41,9 @@ On October 31, 2019
 **29. Divide Two Integers** (divide two integers without using multiplication, division and mod operator.)  
 (a) mimic how we divide two integers in primary school.  
 
-**30. 30. Substring with Concatenation of All Words**  
+**30. Substring with Concatenation of All Words**  
 S1: maintain a sketch as the frequency of chars in the current substring and check the substring if the sketch matches with the one of the list;  
-S2: slick, sort and compare one word by one word when checking.  
+S2: slice, sort, and compare one word by one word when checking.  
 
 On November 7, 2019
 
