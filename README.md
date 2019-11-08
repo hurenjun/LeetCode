@@ -48,3 +48,14 @@ S2: slice, sort, and compare one word by one word when checking.
 On November 7, 2019
 
 ---
+
+**32. Longest Valid Parentheses**  
+(a) O(n) DP algorithm: maintain the longest valid parentheses.   
+(a) O(n) stack algorithm:  
+	S0: initialize the stack with starter -1;  
+	S1: push index for '(' and pop+validate for ')';  
+	S2: if pop fails, reset the starter in stack with the current index.   
+
+On November 8, 2019  
+
+---
