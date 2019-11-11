@@ -59,3 +59,16 @@ On November 7, 2019
 On November 8, 2019  
 
 ---
+
+**41. First Missing Positive** (Your algorithm should run in O(n) time and uses constant extra space.)  
+(a) Revised bin count algorithm:  
+	S1: scan the array of numbers and set numbers outsite [1, n] to zero (n is the length of array);  
+	S2: re-scan the array. For some number k with k % (n+1) > 0, plus the corresponding bin (re-use the array) with number (n + 1);  
+	S3: re-scan the array and find the first number which is < n + 1.  
+
+**42. Trapping Rain Water**  
+(a) O(n) time and O(1) space algorithm: maintain left_max and right_max heights; move left pointer to right and right pointer to right; update #water accordingly.   
+
+On November 11, 2019
+
+---
