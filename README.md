@@ -72,3 +72,10 @@ On November 8, 2019
 On November 11, 2019
 
 ---
+
+**52. N-Queens II**  
+(a) speed-up of valid queen posisiton computation via bit operation.  
+
+On November 13, 2019
+
+---
