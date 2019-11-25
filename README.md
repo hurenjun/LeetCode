@@ -79,3 +79,10 @@ On November 11, 2019
 On November 13, 2019
 
 ---
+
+**84. Largest Rectangle in Histogram**  
+(a) O(n) algorithm: use stack to maintain the right-most position of each bar as the starting bar of a valid rectangle; run the above process two times (heights for right expansion and heights in reverse order for left expansion)  
+
+On November 25, 2019
+
+---
